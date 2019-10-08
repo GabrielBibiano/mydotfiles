@@ -1,5 +1,11 @@
 #!/bin/zsh
 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew cask install google-chrome
+
+brew cask install iterm2
+
 git clone https://github.com/denysdovhan/spaceship-prompt.git "/Users/emmet/.oh-my-zsh/custom/themes/spaceship-prompt"
 
 ln -s "/Users/emmet/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme" "/Users/emmet/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
