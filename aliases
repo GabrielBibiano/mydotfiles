@@ -1,0 +1,2 @@
+export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/config-hlg
+alias k="kubectl"
