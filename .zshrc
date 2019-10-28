@@ -12,6 +12,11 @@ plugins=(
   rbenv
   ruby
   jsontools
+  kubectl
+  docker
+  z
+  docker-compose
+  kubectl
   node
   pip
   web-search
@@ -32,10 +37,11 @@ SPACESHIP_PROMPT_ORDER=(
   xcode
   swift
   node
+  docker
+  kubecontext
   golang
   php
   rust
-  docker
   venv
   pyenv
   line_sep
